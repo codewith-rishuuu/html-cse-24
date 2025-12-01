@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box{
+    border: 3px solid black;
+    height: 400px;
+    width: 1000px;
+    margin: 200px;
+}
+.Bbox{
+    background: pink;
+    height: 70px;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-top: 15px;
+}
+.Bbox1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 5%;
+}
+.Bbox2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 5%;
+}
+#box1c{
+    background: blueviolet;
+    height: 100px;
+    width: 170px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box2c{
+    background: green;
+    height: 100px;
+    width: 170px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
