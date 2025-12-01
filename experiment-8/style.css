@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.border{
+    height: 300px;
+    width: 820px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 190px;
+}
+.box{
+    height: 250px;
+    width: 250px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    color: rgb(247, 47, 47);
+}
+.logo{
+    border: 2px solid black;
+    border-radius: 50%;
+    background: blue;
+    color: white;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+}
+.name{
+    font-size: 1.2rem;
+    color: black;
+}
